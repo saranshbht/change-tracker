@@ -20,10 +20,15 @@ jobs:
       run: npm install
 
     - name: run
-      run: |
-        git config user.name "Saransh Bhatia"
-        git config user.email "saranshbht@github.com"
-        node runner.js
+      run: node runner.js
       env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
+  
+    - name: push changes
+      uses: stefanzweifel/git-auto-commit-action@v4.4.1
+      with:
+        commit_message: added changes by action
+        commit_user_name: Saransh Bhatia
+        commit_user_email: saranshbht@gmail.com
+        commit_author: Author <saranshbht@github.com> 
