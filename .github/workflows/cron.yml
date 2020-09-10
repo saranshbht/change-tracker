@@ -1,0 +1,29 @@
+name: cron job
+
+on:
+  schedule:
+    - cron: 0 0/6 * * *
+
+
+jobs:
+  cron-job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+
+    - name: set up node
+      uses: actions/setup-node@v1
+
+    - name: install
+      run: npm install
+
+    - name: run
+      run: |
+        git config user.name "Saransh Bhatia"
+        git config user.email "saranshbht@github.com"
+        node runner.js
+      env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
