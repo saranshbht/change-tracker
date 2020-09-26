@@ -1,1 +1,1 @@
-Tracks changes to websites and sends Telegram notification
+Tracks changes to webpages and sends Telegram notification

@@ -2,7 +2,7 @@ name: cron job
 
 on:
   schedule:
-    - cron: 0 0/6 * * *
+    - cron: 0 0/3 * * *
 
 
 jobs:
@@ -24,7 +24,7 @@ jobs:
       env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
-  
+
     - name: push changes
       uses: stefanzweifel/git-auto-commit-action@v4.4.1
       with:
