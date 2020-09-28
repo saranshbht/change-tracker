@@ -33,7 +33,7 @@ array.map(([url, selector, file]) => {
             fs.writeFileSync(file, new_text);
             api.sendMessage({
                 chat_id: process.env.CHAT_ID,
-                text: msg
+                text: msg.slice(0, 4000)
             })
             .catch(console.log);
         }
