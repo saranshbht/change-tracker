@@ -1,9 +1,6 @@
 
 DU Website
 Admission Helpdesk
-Helpdesk Numbers for admit card related queries (Timings 9:00am to 6:00pm, Monday to Saturday):-
-Phone: 011-27667092, 011-27006900
-Email: duet@nta.ac.in
 Please mail your admission related queries to:
 undergraduate2020 @admission.du.ac.in (For queries related to UG admission)
 pg2020@admission.du.ac.in (For queries related to PG/M.Phil/Ph.D admission)
@@ -56,36 +53,51 @@ OBC
 SC
 ST
 EWS
-Information about Admission
+Information about UG Admission
+Query and Grievance Form UG
 Corrigendum UG
-Updated MPhil seats
-Updated PhD seats
 NOTIFICATION-Schedule for UG (Entrance-based and Merit-based) and PG admissions for the Academic Session 2020-21
-Guidelines for M.Phil/ PhD Admissions
-Seat matrix for PG Courses in various colleges (2020-21)
 Seat matrix for ECA category in various colleges
 Seat matrix for Sports category in various colleges
 Undergraduate Admissions 2020 - English, Hindi
-Postgraduate Admissions 2020 - English, Hindi
-M.Phil./Ph.D. Admissions 2020
 Number of seats in various colleges/ Department under Merit Based Courses
 Fee Structure of various Merit Based Courses
 Revised combination and seats of Discipline papers offered by colleges in BA (Prog)
 Fees Structure in various colleges for BA (Prog)
-Information about Entrance test
-Notice: DUET 2020 Display of Question Papers & Challenges of Answer Keys for 61 PG Courses
+Information about PG Admission
+Seat matrix for PG Courses in various colleges (2020-21)
+NOTIFICATION-Schedule for UG (Entrance-based and Merit-based) and PG admissions for the Academic Session 2020-21
+Postgraduate Admissions 2020 - English, Hindi
+Information about MPHIL/PHD Admission
+Updated MPhil seats
+Updated PhD seats
+Guidelines for M.Phil/ PhD Admissions
+M.Phil./Ph.D. Admissions 2020
+Information about UG Entrance test
 Revised interim Answer Key for DUET- 2020 JAT Papers (BMS/BBA/BA (Hons.) Business Economics 01 and 02).
 Notice: Display of Question Papers & Challenge of Answer keys for the UG courses DUET 2020
 Format of Self-Declaration form for scribe for PwBD applicants as provided by NTA
 Release of Admit Card for Delhi University Entrance Test (DUET) Sep. 2020
 Schedule for Delhi University Entrance Test (DUET) - 2020
 Undergraduate Admissions 2020
-Postgraduate Admissions 2020
-M.Phil./Ph.D. Admissions 2020
 Number of seats in various colleges/ Department under Entrance Based Courses
 Fee Structure of various Entrance Based Courses
-Link of the syllabus for PG/M/Phil/PhD Entrance test
 Syllabus for UG Entrance Test
+Previous two years question papers maybe downloaded from https://nta.ac.in/ -> Download
+Information about PG Entrance test
+Notice: DUET 2020 Display of Question Papers & Challenges of Answer Keys for 61 PG Courses
+Format of Self-Declaration form for scribe for PwBD applicants as provided by NTA
+Release of Admit Card for Delhi University Entrance Test (DUET) Sep. 2020
+Schedule for Delhi University Entrance Test (DUET) - 2020
+Postgraduate Admissions 2020
+Link of the syllabus for PG/M/Phil/PhD Entrance test
+Previous two years question papers maybe downloaded from https://nta.ac.in/ -> Download
+Information about MPHIL/PHD Entrance test
+Format of Self-Declaration form for scribe for PwBD applicants as provided by NTA
+Release of Admit Card for Delhi University Entrance Test (DUET) Sep. 2020
+Schedule for Delhi University Entrance Test (DUET) - 2020
+M.Phil./Ph.D. Admissions 2020
+Link of the syllabus for PG/M/Phil/PhD Entrance test
 Previous two years question papers maybe downloaded from https://nta.ac.in/ -> Download
 Press Releases / Notices
 Notice for editing the registered form for UG applicants
