@@ -13,12 +13,17 @@ let array = [
     ['https://nta.ac.in/NoticeBoardArchive', 'div.content', 'nta.txt'],
     ['http://www.du.ac.in/du/uploads/COVID-19', 'section.main-content', 'du/home.txt'],
     ['http://www.du.ac.in/du/uploads/COVID-19/examination.html', 'section.main-content', 'du/examination.txt'],
-    ['http://www.du.ac.in/du/uploads/COVID-19/admissions.html', 'section.main-content', 'du/admissions.txt']
+    ['http://www.du.ac.in/du/uploads/COVID-19/admissions.html', 'section.main-content', 'du/admissions.txt'],
+    ['http://www.du.ac.in/du/uploads/COVID-19/Result%20of%20DUET%202020.html', 'section.main-content', 'du/result-duet.txt']
 ];
 
 array.map(([url, selector, file]) => {
     axios.get(url)
     .then(res => {
+        if (!fs.existsSync(file)) {
+            let text = cheerio.load(res.data)(selector).text().replace(/\s\s+/g, '\n');
+            fs.writeFileSync(file, text);
+        }
         let old_text = fs.readFileSync(file).toString();
         let new_text = cheerio.load(res.data)(selector).text().replace(/\s\s+/g, '\n');
         const diff = Diff.diffLines(old_text, new_text);
