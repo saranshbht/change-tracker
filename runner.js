@@ -14,7 +14,8 @@ let array = [
     ['http://www.du.ac.in/du/uploads/COVID-19', 'section.main-content', 'du/home.txt'],
     ['http://www.du.ac.in/du/uploads/COVID-19/examination.html', 'section.main-content', 'du/examination.txt'],
     ['http://www.du.ac.in/du/uploads/COVID-19/admissions.html', 'section.main-content', 'du/admissions.txt'],
-    ['http://www.du.ac.in/du/uploads/COVID-19/Result%20of%20DUET%202020.html', 'section.main-content', 'du/result-duet.txt']
+    ['http://www.du.ac.in/du/uploads/COVID-19/Result%20of%20DUET%202020.html', 'section.main-content', 'du/result-duet.txt'],
+    ['http://www.du.ac.in/du/uploads/COVID-19/Admissions-list.html', 'section.main-content', 'du/admission-lists.txt']
 ];
 
 array.map(([url, selector, file]) => {
