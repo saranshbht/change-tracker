@@ -2,6 +2,8 @@
 DU Website
 Admission Helpdesk
 NO APPLICANTS SHOULD VISIT ANY COLLEGE OR UNIVERSITY FOR ANY QUERIES/ GRIEVANCES
+PG grievance Notice
+PG grievance form
 Notice: GRIEVANCE REDRESSAL
 UNIVERSITY OF DELHI PG ADMISSIONS 2020-2021
 Helpdesk for Postgraduate Programme (2020-21)
@@ -45,6 +47,12 @@ Admission Portal 2020
 Admissions List 2020
 FIRST Admissions List 2020 (Post Graduation)
 First Admission List -
+M.A. Punjabi -2020
+First Admission List -
+M.Sc. Geology PwD/CW (Entrance Based)-2020
+First Admission List -
+M.Sc. Physics -2020
+First Admission List -
 M.Sc. Biochemistry -2020
 First Admission List -
 M.Sc. (Mathematics Education) (CIC) -2020
@@ -57,7 +65,7 @@ M.A. Life Long Learning & Extension-2020
 First Admission List - B.Ed Special Education (Visual Impairment)-2020
 First Admission List - B.Ed Special Education (Visual Impairment) PwD/CW (Entrance Based)-2020
 First Admission List - M.A. Social Work-2020
-First Admission List - MSc GENETICS-2020
+First Admission List - MSc Genetics-2020
 First Admission List - M.Tech Microwave Etectronics-2020
 First Admission List - M.A. Buddhist Studies PwD/CW (Entrance Based) -2020
 First Admission List - M.Sc. Environmental Studies-2020
