@@ -44,6 +44,8 @@ Admission Portal 2020
 PG Admissions List 2020
 SECOND Admissions List 2020 (Post Graduation)
 Second Admission List -
+Master of Operational Research PwD/CW (Entrance & Merit Based) -2020
+Second Admission List -
 M.A. English PwD/CW (Entrance & Merit Based) -2020
 Second Admission List - M.A. English-2020
 Second Admission List -
@@ -110,6 +112,9 @@ Second Admission List - M.A. Economics-2020
 Second Admission List - M.Sc. Microbiology-2020
 Second Admission List - M.A. Geography-2020
 FIRST Admissions List 2020 (Post Graduation)
+First Admission List -
+MA Persian
+-2020
 First Admission List -
 PGDCSL -2020
 First Admission List - L.L.B.-2020
@@ -295,6 +300,7 @@ Spot Admission First List
 2020 (UG)
 B.A. (Hons.) Humanities and Social Sciences
 B.Tech. Information Technology and Mathematical Innovations (IT & MI)
+Five Year Integrated Program in Journalism
 Third Admissions List 2020 (UG)
 3rd Admission List- BMS/BBA(FIA)/BBE
 3rd Admission List- B.A. (Hons.) Humanities and Social Sciences
