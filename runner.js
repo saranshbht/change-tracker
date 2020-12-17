@@ -1,48 +1,60 @@
 const tg = require('telegram-bot-api');
-const cheerio = require('cheerio');
-const axios = require('axios');
 const Diff = require('diff');
 const fs = require('fs');
 const api = new tg({ token: process.env.BOT_TOKEN });
-
+const puppeteer = require('puppeteer');
 let added_decoration = '+++++++++++++++\n';
 let removed_decoration = '~~~~~~~~~~~~~~~\n';
 
 let array = [
     ['http://nimcet.in', 'div.marquee', 'nimcet.txt'],
-    ['https://nta.ac.in/NoticeBoardArchive', 'div.content', 'nta.txt'],
+    // ['https://nta.ac.in/NoticeBoardArchive', 'div.content', 'nta.txt'],
     ['http://www.du.ac.in/du/uploads/COVID-19', 'section.main-content', 'du/home.txt'],
     ['http://www.du.ac.in/du/uploads/COVID-19/examination.html', 'section.main-content', 'du/examination.txt'],
     ['http://www.du.ac.in/du/uploads/COVID-19/admissions.html', 'section.main-content', 'du/admissions.txt'],
     ['http://www.du.ac.in/du/uploads/COVID-19/Result%20of%20DUET%202020.html', 'section.main-content', 'du/result-duet.txt'],
-    ['http://www.du.ac.in/du/uploads/COVID-19/Admissions-list.html', 'section.main-content', 'du/admission-lists.txt']
+    ['http://www.du.ac.in/du/uploads/COVID-19/Admissions-list.html', 'section.main-content', 'du/admission-lists.txt'],
+    ['http://cs.du.ac.in/', 'section#content', 'csdu/home.txt'],
+    ['http://cs.du.ac.in/admission/mca/', 'div.main-content', 'csdu/mca.txt'],
+    ['http://cs.du.ac.in/admission/mcs/', 'div.main-content', 'csdu/mcs.txt']
 ];
 
-array.map(([url, selector, file]) => {
-    axios.get(url)
-    .then(res => {
-        if (!fs.existsSync(file)) {
-            let text = cheerio.load(res.data)(selector).text().replace(/\s\s+/g, '\n');
-            fs.writeFileSync(file, text);
-        }
-        let old_text = fs.readFileSync(file).toString();
-        let new_text = cheerio.load(res.data)(selector).text().replace(/\s\s+/g, '\n');
-        const diff = Diff.diffLines(old_text, new_text);
-        let msg = url + '\n';
-        diff.forEach(part => {
-            msg += part.added ? added_decoration + part.value + added_decoration :
-                part.removed ? removed_decoration + part.value + removed_decoration :
-                '';
-        });
+puppeteer.launch()
+.then(browser => {
+  let cnt = array.length;
+  array.map(async([url, selector, file]) => {
+    const page = await browser.newPage();
+    await page.goto(url);
+    let text = await page.$eval(selector, el => el.innerText);
+    text = text.replace(/\s\s+/g, '\n');
+    cnt--;
 
-        if (msg.split('\n')[1]) {
-            fs.writeFileSync(file, new_text);
-            api.sendMessage({
-                chat_id: process.env.CHAT_ID,
-                text: msg.slice(0, 4000)
-            })
-            .catch(console.log);
-        }
-    })
-    .catch(console.log);
-});
+    if (!fs.existsSync(file)) {
+      fs.writeFileSync(file, text);
+    }
+    else {
+      let old_text = fs.readFileSync(file).toString();
+      const diff = Diff.diffLines(old_text, text);
+      let msg = url + '\n';
+      diff.forEach(part => {
+        msg += part.added ? added_decoration + part.value + added_decoration :
+        part.removed ? removed_decoration + part.value + removed_decoration :
+        '';
+      });
+
+      if (msg.split('\n')[1]) {
+        fs.writeFileSync(file, text);
+        api.sendMessage({
+          chat_id: process.env.CHAT_ID,
+          text: msg.slice(0, 4000)
+        })
+        .catch(console.log);
+      }
+    }
+
+    if (cnt == 0) {
+      browser.close();
+    }
+  });
+})
+.catch(console.log);

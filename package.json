@@ -4,9 +4,8 @@
   "description": "",
   "main": "runner.js",
   "dependencies": {
-    "axios": "^0.20.0",
-    "cheerio": "^1.0.0-rc.3",
     "diff": "^4.0.2",
+    "puppeteer": "^5.5.0",
     "telegram-bot-api": "^2.0.1"
   },
   "devDependencies": {},
