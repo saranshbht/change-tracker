@@ -28,16 +28,23 @@ UG Admission Portal 2020
 PG Admission Portal 2020
 M.Phil. / Ph.D. Admission Portal 2020
 PG Admissions List 2020
+Seventh Admission List 2020 (Post Graduation)
+Seventh Admission List - M.A. Geography - 2020
 Sixth Admission List 2020 (Post Graduation)
 Sixth Admission List - M.A. Geography - 2020
 Sixth Admission List - M.Sc Genetics - 2020
 FIFTH Admission List 2020 (Post Graduation)
+Fifth Admission List - M.Sc. Plant Molecular Biology & Biotechnology - 2020
+Fifth Admission List - M.Sc Geology - 2020
+Fifth Admission List - M.Sc Electronics - 2020
 Fifth Admission List - M.A. Applied Psychology - 2020
 Fifth Admission List - M.Sc Microbiology - 2020
 Fifth Admission List- M.A. Geography-2020
 Fifth Admission List- M.A. Geography PwD/CW (Entrance & Merit Based) -2020
 Fifth Admission List- M.Sc. Genetics-2020
 FOURTH Admission List 2020 (Post Graduation)
+Fourth Admission List - M.A. Sociology - 2020
+Fourth Admission List - M.A. Economics - 2020
 Fourth Admission List - M.A./M.Sc. Statistics-2020
 Fourth Admission List - M.Sc Geology - 2020
 Fourth Admission List - M.Sc. Electronics - 2020
@@ -55,7 +62,8 @@ Fourth Admission List- M.A. Geography PwD/CW (Entrance & Merit Based) -2020
 Fourth Admission List- M.Sc. Microbiology-2020
 Fourth Admission List- M.Sc. Genetics-2020
 THIRD Admission List 2020 (Post Graduation)
-Third Admission List - L.L.M.- 2020
+Third Admission List - LL.B.- 2020
+Third Admission List - LL.M.- 2020
 Third Admission List - M.A. Buddhist Studies - 2020
 Third Admission List - M.A. Hindi PwD/CW (Entrance & Merit Based) - 2020
 Third Admission List -M.A. Social Work - 2020
@@ -125,6 +133,8 @@ Third Admission List- M.Sc. Course in Plant Molecular Biology & Biotechnology
 Third Admission List- M.Sc. Genetics
 Third Admission List- M.Sc. Microbiology -2020
 SECOND Admissions List 2020 (Post Graduation)
+Second Admission List - M.A. Political Science-2020
+Second Admission List - M.A. Political Science PwD/CW (Entrance & Merit Based)-2020
 Second Admission List - BLISc - 2020
 Second Admission List - M.A. Arabic-2020
 Second Admission List - M.A. Persian-2020
@@ -205,6 +215,9 @@ Second Admission List - M.A. Economics-2020
 Second Admission List - M.Sc. Microbiology-2020
 Second Admission List - M.A. Geography-2020
 FIRST Admissions List 2020 (Post Graduation)
+First Admission List - LL.B PwD/CW (Entrance & Merit Based)- 2020
+Sports First Admission List - M.A. ENGLISH (UNDER SPORTS CATEGORY)
+Sports First Admission List - M.A. Economics
 First Admission List - BLISc
 First Admission List - M.A. Political Science PwD/CW (Entrance & Merit Based) -2020
 First Admission List - M.A. Political Science -2020
@@ -319,6 +332,7 @@ PG Registration Information
 MPHIL/PHD Registration Information
 UG Admissions List 2020
 Spot Admission Third List 2020 (UG)
+Guidelines and Schedule for the Third and Fourth Spot Admission to BMS, BBA(FIA) and B.A.(H) Business Economics
 Five Year Integrated Program in Journalism
 B.Tech. Information Technology and Mathematical Innovations (IT & MI)
 B.A. (Hons.) Humanities and Social Sciences
