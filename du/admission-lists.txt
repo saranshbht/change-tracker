@@ -35,6 +35,7 @@ Sixth Admission List - M.Sc. Microbiology - 2020
 Sixth Admission List - M.A. Geography - 2020
 Sixth Admission List - M.Sc Genetics - 2020
 FIFTH Admission List 2020 (Post Graduation)
+Fifth Admission List - B.Ed Special Education (Mental Retardation) - 2020
 Fifth Admission List - M.Tech - 2020
 Fifth Admission List - M.Sc Biomedical Research-2020
 Fifth Admission List - M.Sc. Plant Molecular Biology & Biotechnology - 2020
@@ -46,6 +47,9 @@ Fifth Admission List- M.A. Geography-2020
 Fifth Admission List- M.A. Geography PwD/CW (Entrance & Merit Based) -2020
 Fifth Admission List- M.Sc. Genetics-2020
 FOURTH Admission List 2020 (Post Graduation)
+Fourth Admission List - M.A. Hindi - 2020
+Fourth Admission List - M.A. Hindi PwD/CW (Entrance & Merit Based) - 2020
+Fourth Admission List - Master of Education (M.Ed.) - 2020
 Fourth Admission List - M.Sc. Zoology PwD/CW (Entrance & Merit Based) - 2020
 Fourth Admission List - M.Sc. Zoology - 2020
 Fourth Admission List - Bachelor of Education (B.Ed.) -2020
@@ -352,7 +356,11 @@ UG Registration Information
 PG Registration Information
 MPHIL/PHD Registration Information
 UG Admissions List 2020
+Spot Admission Fourth List 2020 (UG)
+B.Tech. Information Technology and Mathematical Innovations (IT & MI)
+B.A. (Hons.) Humanities and Social Sciences
 Spot Admission Third List 2020 (UG)
+Notice for Third spot admissions Bachelor of Elementary Education (B.El.Ed.)
 Guidelines and Schedule for the Third and Fourth Spot Admission to BMS, BBA(FIA) and B.A.(H) Business Economics
 Five Year Integrated Program in Journalism
 B.Tech. Information Technology and Mathematical Innovations (IT & MI)
