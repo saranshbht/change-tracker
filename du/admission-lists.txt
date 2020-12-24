@@ -29,6 +29,7 @@ PG Admission Portal 2020
 M.Phil. / Ph.D. Admission Portal 2020
 PG Admissions List 2020
 Seventh Admission List 2020 (Post Graduation)
+Seventh Admission List - M.Sc Genetics - 2020
 Seventh Admission List - M.Sc. Microbiology - 2020
 Seventh Admission List - M.A. Geography - 2020
 Sixth Admission List 2020 (Post Graduation)
@@ -37,6 +38,7 @@ Sixth Admission List - M.Sc. Microbiology - 2020
 Sixth Admission List - M.A. Geography - 2020
 Sixth Admission List - M.Sc Genetics - 2020
 FIFTH Admission List 2020 (Post Graduation)
+Fifth Admission List - M.A./M.Sc. Statistics - 2020
 Fifth Admission List - B.Ed Special Education (Mental Retardation) - 2020
 Fifth Admission List - M.Tech - 2020
 Fifth Admission List - M.Sc Biomedical Research-2020
@@ -49,6 +51,7 @@ Fifth Admission List- M.A. Geography-2020
 Fifth Admission List- M.A. Geography PwD/CW (Entrance & Merit Based) -2020
 Fifth Admission List- M.Sc. Genetics-2020
 FOURTH Admission List 2020 (Post Graduation)
+Fourth Admission List - Master in Operational Research - 2020
 Fourth Admission List - M.Sc. Chemistry - 2020
 Fourth Admission List - M.A. Punjabi - 2020
 Fourth Admission List - M.A./M.Sc. Mathematics - 2020
@@ -244,6 +247,7 @@ Second Admission List - M.A. Economics-2020
 Second Admission List - M.Sc. Microbiology-2020
 Second Admission List - M.A. Geography-2020
 FIRST Admissions List 2020 (Post Graduation)
+Ward First Admission List-M.Sc. Zoology - 2020
 Ward First Admission List-M.Com-2020
 Ward First Admission List - M.Sc. Biochemistry.
 Ward First Admission List -M.A. Linguistics - 2020.
