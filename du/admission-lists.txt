@@ -45,6 +45,10 @@ Sixth Admission List - M.Sc. Microbiology - 2020
 Sixth Admission List - M.A. Geography - 2020
 Sixth Admission List - M.Sc Genetics - 2020
 FIFTH Admission List 2020 (Post Graduation)
+Fifth Admission List - M.A. Hindi - 2020
+Fifth Admission List - M.A. Hindi PwD/CW (Entrance & Merit Based) - 2020
+Fifth Admission List - M.A./M.Sc. Mathematics - 2020
+Fifth Admission List - M.Sc. Botany - 2020
 Fifth Admission List - M.Sc. Chemistry - 2020
 Fifth Admission List - M.A. Environmental Studies - 2020
 Fifth Admission List - M.Sc. Environmental Studies - 2020
@@ -72,6 +76,9 @@ Fifth Admission List- M.A. Geography-2020
 Fifth Admission List- M.A. Geography PwD/CW (Entrance & Merit Based) -2020
 Fifth Admission List- M.Sc. Genetics-2020
 FOURTH Admission List 2020 (Post Graduation)
+Fourth Admission List - M.Com PwD/CW (Entrance & Merit Based) - 2020
+Fourth Admission List - M.A. Urdu - 2020
+Fourth Admission List - M.Com- 2020
 Fourth Admission List - M.A. Linguistics - 2020
 Fourth Admission List - M.A. History - 2020
 Fourth Admission List - M.A. History PwD/CW (Entrance & Merit Based) - 2020
@@ -285,6 +292,8 @@ Second Admission List - M.A. Economics-2020
 Second Admission List - M.Sc. Microbiology-2020
 Second Admission List - M.A. Geography-2020
 FIRST Admissions List 2020 (Post Graduation)
+first Admission List - M.Sc. Environmental Studies PwD/CW (Entrance & Merit Based) - 2020
+Ward First Admission List - M.A. English - 2020
 first Admission List - M.Sc. Biochemistry PwD/CW (Entrance & Merit Based) - 2020
 Ward First Admission List - M.Sc. Physics-2020
 Ward First Admission List - M.Sc. Botany
@@ -416,6 +425,7 @@ UG Admissions List 2020
 Spot Admission Fifth List 2020 (UG)
 B.A. (Hons.) Humanities and Social Sciences
 Spot Admission Fourth List 2020 (UG)
+BMS/BBA(FIA)/BBE - 2020
 B.Tech. Information Technology and Mathematical Innovations (IT & MI)
 B.A. (Hons.) Humanities and Social Sciences
 Spot Admission Third List 2020 (UG)
