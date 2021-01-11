@@ -9,11 +9,11 @@ let removed_decoration = '~~~~~~~~~~~~~~~\n';
 let array = [
     ['http://nimcet.in', 'div.marquee', 'nimcet.txt'],
     // ['https://nta.ac.in/NoticeBoardArchive', 'div.content', 'nta.txt'],
-    ['http://www.du.ac.in/du/uploads/COVID-19', 'section.main-content', 'du/home.txt'],
-    ['http://www.du.ac.in/du/uploads/COVID-19/examination.html', 'section.main-content', 'du/examination.txt'],
-    ['http://www.du.ac.in/du/uploads/COVID-19/admissions.html', 'section.main-content', 'du/admissions.txt'],
-    ['http://www.du.ac.in/du/uploads/COVID-19/Result%20of%20DUET%202020.html', 'section.main-content', 'du/result-duet.txt'],
-    ['http://www.du.ac.in/du/uploads/COVID-19/Admissions-list.html', 'section.main-content', 'du/admission-lists.txt'],
+    ['http://oldweb.du.ac.in/du/uploads/COVID-19', 'section.main-content', 'du/home.txt'],
+    ['http://oldweb.du.ac.in/du/uploads/COVID-19/examination.html', 'section.main-content', 'du/examination.txt'],
+    ['http://oldweb.du.ac.in/du/uploads/COVID-19/admissions.html', 'section.main-content', 'du/admissions.txt'],
+    // ['http://www.du.ac.in/du/uploads/COVID-19/Result%20of%20DUET%202020.html', 'section.main-content', 'du/result-duet.txt'],
+    // ['http://www.du.ac.in/du/uploads/COVID-19/Admissions-list.html', 'section.main-content', 'du/admission-lists.txt'],
     ['http://cs.du.ac.in/', 'section#content', 'csdu/home.txt'],
     ['http://cs.du.ac.in/admission/mca/', 'div.main-content', 'csdu/mca.txt'],
     ['http://cs.du.ac.in/admission/mcs/', 'div.main-content', 'csdu/mcs.txt']
@@ -24,6 +24,7 @@ puppeteer.launch()
   let cnt = array.length;
   array.map(async([url, selector, file]) => {
     const page = await browser.newPage();
+    await page.setDefaultNavigationTimeout(0);
     await page.goto(url);
     let text = await page.$eval(selector, el => el.innerText);
     text = text.replace(/\s\s+/g, '\n');
@@ -53,7 +54,7 @@ puppeteer.launch()
     }
 
     if (cnt == 0) {
-      browser.close();
+      await browser.close();
     }
   });
 })
