@@ -23,38 +23,48 @@ puppeteer.launch()
 .then(browser => {
   let cnt = array.length;
   array.map(async([url, selector, file]) => {
-    const page = await browser.newPage();
-    await page.setDefaultNavigationTimeout(0);
-    await page.goto(url);
-    let text = await page.$eval(selector, el => el.innerText);
-    text = text.replace(/\s\s+/g, '\n');
-    cnt--;
+    try {
+      const page = await browser.newPage();
+      // await page.setDefaultNavigationTimeout(0);
+      await page.goto(url);
+      let text = await page.$eval(selector, el => el.innerText);
+      text = text.replace(/\s\s+/g, '\n');
 
-    if (!fs.existsSync(file)) {
-      fs.writeFileSync(file, text);
-    }
-    else {
-      let old_text = fs.readFileSync(file).toString();
-      const diff = Diff.diffLines(old_text, text);
-      let msg = url + '\n';
-      diff.forEach(part => {
-        msg += part.added ? added_decoration + part.value + added_decoration :
-        part.removed ? removed_decoration + part.value + removed_decoration :
-        '';
-      });
-
-      if (msg.split('\n')[1]) {
+      if (!fs.existsSync(file)) {
         fs.writeFileSync(file, text);
-        api.sendMessage({
-          chat_id: process.env.CHAT_ID,
-          text: msg.slice(0, 4000)
-        })
-        .catch(console.log);
+      }
+      else {
+        let old_text = fs.readFileSync(file).toString();
+        const diff = Diff.diffLines(old_text, text);
+        let msg = url + '\n';
+        diff.forEach(part => {
+          msg += part.added ? added_decoration + part.value + added_decoration :
+          part.removed ? removed_decoration + part.value + removed_decoration :
+          '';
+        });
+
+        if (msg.split('\n')[1]) {
+          fs.writeFileSync(file, text);
+          api.sendMessage({
+            chat_id: process.env.CHAT_ID,
+            text: msg.slice(0, 4000)
+          })
+          .catch(console.log);
+        }
+      }
+
+      cnt--;
+      if (cnt == 0) {
+        await browser.close();
       }
     }
-
-    if (cnt == 0) {
-      await browser.close();
+    catch (err) {
+      console.log(url);
+      console.log(err);
+      cnt--;
+      if (cnt == 0) {
+        await browser.close();
+      }
     }
   });
 })
