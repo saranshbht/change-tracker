@@ -9,8 +9,8 @@ let removed_decoration = "~~~~~~~~~~~~~~~\n";
 
 let array = [
   ["http://nimcet.in", "div.marquee", "nimcet.txt"],
-  // ['https://nta.ac.in/NoticeBoardArchive', 'div.content', 'nta.txt'],
   ["http://du.ac.in", "div#pills-spotlight", "du/home.txt"],
+  // ['https://nta.ac.in/NoticeBoardArchive', 'div.content', 'nta.txt'],
   // [
   //   "http://oldweb.du.ac.in/du/uploads/COVID-19/examination.html",
   //   "section.main-content",
@@ -61,12 +61,12 @@ puppeteer
 
           if (msg.split("\n")[1]) {
             fs.writeFileSync(file, text);
-            // api
-            //   .sendMessage({
-            //     chat_id: process.env.CHAT_ID,
-            //     text: msg.slice(0, 4000),
-            //   })
-            //   .catch(console.log);
+            api
+              .sendMessage({
+                chat_id: process.env.CHAT_ID,
+                text: msg.slice(0, 4000),
+              })
+              .catch(console.log);
           }
         }
 
