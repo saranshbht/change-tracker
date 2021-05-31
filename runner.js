@@ -30,6 +30,7 @@ let array = [
     "http://durslt.du.ac.in/DURSLT_ND2020/Students/List_Of_Declared_Results.aspx",
     "table#gvshow_Reg",
     "du/results.txt",
+    "th[style='height:35px;'], td[style='height:35px;']",
   ],
 ];
 
@@ -37,11 +38,21 @@ puppeteer
   .launch()
   .then((browser) => {
     let cnt = array.length;
-    array.map(async ([url, selector, file]) => {
+    array.map(async ([url, selector, file, remove = ""]) => {
       try {
         const page = await browser.newPage();
         // await page.setDefaultNavigationTimeout(0);
         await page.goto(url);
+
+        if (remove) {
+          await page.evaluate((selector) => {
+            let elements = document.querySelectorAll(selector);
+            for (let i = 0; i < elements.length; i++) {
+              elements[i].parentNode.removeChild(elements[i]);
+            }
+          }, remove);
+        }
+
         let text = await page.$eval(selector, (el) => el.innerText);
         text = text.replace(/\s\s+/g, "\n");
 
@@ -49,7 +60,9 @@ puppeteer
           fs.writeFileSync(file, text);
         } else {
           let old_text = fs.readFileSync(file).toString();
-          const diff = Diff.diffLines(old_text, text);
+          const diff = Diff.diffLines(old_text, text, {
+            ignoreWhitespace: true,
+          });
           let msg = url + "\n";
           diff.forEach((part) => {
             msg += part.added
@@ -58,7 +71,6 @@ puppeteer
               ? removed_decoration + part.value + removed_decoration
               : "";
           });
-
           if (msg.split("\n")[1]) {
             fs.writeFileSync(file, text);
             api
