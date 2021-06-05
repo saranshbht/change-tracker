@@ -4,8 +4,6 @@ const fs = require("fs");
 const puppeteer = require("puppeteer");
 
 const api = new tg({ token: process.env.BOT_TOKEN });
-let added_decoration = "+++++++++++++++\n";
-let removed_decoration = "~~~~~~~~~~~~~~~\n";
 
 let array = [
   ["http://nimcet.in", "div.marquee", "nimcet.txt"],
@@ -59,24 +57,29 @@ puppeteer
         if (!fs.existsSync(file)) {
           fs.writeFileSync(file, text);
         } else {
-          let old_text = fs.readFileSync(file).toString();
-          const diff = Diff.diffLines(old_text, text, {
-            ignoreWhitespace: true,
-          });
+          let old_text = fs
+            .readFileSync(file)
+            .toString()
+            .replace(/(\r\n|\r)/gm, "\n");
+
+          const diff = Diff.diffTrimmedLines(old_text, text);
           let msg = url + "\n";
+
           diff.forEach((part) => {
             msg += part.added
-              ? added_decoration + part.value + added_decoration
+              ? "<strong>" + part.value + "</strong>\n"
               : part.removed
-              ? removed_decoration + part.value + removed_decoration
+              ? "<strike>" + part.value + "</strike>\n"
               : "";
           });
+
           if (msg.split("\n")[1]) {
             fs.writeFileSync(file, text);
             api
               .sendMessage({
                 chat_id: process.env.CHAT_ID,
                 text: msg.slice(0, 4000),
+                parse_mode: "HTML",
               })
               .catch(console.log);
           }
