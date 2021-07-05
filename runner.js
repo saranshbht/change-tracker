@@ -30,6 +30,12 @@ let array = [
     "du/results.txt",
     "th[style='height:35px;'], td[style='height:35px;']",
   ],
+  [
+    "http://durslt.du.ac.in/DURSLT_MJ2021/Students/List_Of_Declared_Results.aspx",
+    "table#gvshow_Reg",
+    "du/results_may_june.txt",
+    "th[style='height:35px;'], td[style='height:35px;']",
+  ],
 ];
 
 puppeteer
