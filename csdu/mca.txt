@@ -1,6 +1,23 @@
 Home » Admission » MCA
 Master of Computer Applications
 MCA Admission 2021-22
+Distribution of Seats (Category-Wise):
+Total Seats (General+SC+ST+OBC+EWS) - 58
+Admission Criteria
+Total
+GEN
+SC
+ST
+OBC
+EWS
+PWD (3%) *
+CW (5%) *
+Sports (Upto 5%) *
+Entrance	58	23	09	04	16	06	02	03	03
+Merit	00	00	00	00	00	00	00	00	00
+Foreign National (5%)	03	-
+Note:
+Supernumerary Seats (PWD, CW, Sports, Foreign National) are over and above the total number of seats. (As per the University rules)
 Admission Portal
 Bulletin of Information
 For any queries related to MCA admissions:
