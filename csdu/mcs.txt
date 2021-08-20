@@ -1,10 +1,9 @@
 Home » Admission » M.Sc. Computer Science
 M.Sc. Computer Science
 M.Sc. Admission 2021-22
-Admission Portal
-Bulletin of Information
-Syllabus for the M.Sc. Computer Science Entrance Test 2021-2022
-Distribution of Seats (Category-Wise)
+Quick Links
+Admission Portal	Bulletin of Information	Distribution of Seats (Category-Wise)	Eligibility
+Admission Procedure	Entrance Exam Details	Syllabus for Entrance Test 2021-2022	Contact Us
 Distribution of Seats (Category-Wise):
 Total Seats (General+SC+ST+OBC+EWS) - 58
 Admission Criteria
@@ -22,6 +21,29 @@ Merit	29	11	05	02	08	03	01	01	02
 Foreign National (5%)	03	-
 Note:
 Supernumerary Seats (PWD, CW, Sports, Foreign National) are over and above the total number of seats. (As per the University rules)
+Eligibility:
+In Entrance Category
+Category Id	Course Requirements	Marks Requirements
+1	B.Sc. (Honours) Computer Science (10+2+3 scheme) or B.Tech. Computer Science (10+2+4 scheme) from University of Delhi or any other University whose corresponding degrees are recognized as equivalent to those of University of Delhi.	Should have secured 60% marks in aggregate or equivalent of CGPA as per University of Delhi norms.
+2	Any Bachelor's Degree (10+2+3) of University of Delhi or any other University whose degree is recognized as equivalent to that of University of Delhi, with at least six papers in Computer Science and at least two papers in Mathematics under Semester system / at least three papers in Computer Science and at least one paper in Mathematics under Annual Examination System.	Should have secured 60% marks in aggregate with 60% marks in Computer Science and Mathematics separately or equivalent of CGPA as per University of Delhi norms.
+In Merit Category
+Category Id	Course Requirements	Marks Requirements
+3	B.Sc. (H) Computer Science (10+2+3 Scheme) from University of Delhi	Should have secured 60% marks in aggregate or equivalent of CGPA as per University of Delhi norms.
+Notes:
+1. The candidates who are appearing in the final year examinations of the Bachelor's degree on the basis of which admission is sought are eligible to apply in all categories mentioned above.
+2. Relaxation will be given to the candidates belonging to SC, ST and OBC category as per the University rules
+3. 50% of the seats will be filled on the basis of merit in B.Sc.(H) Computer Science examination of University of Delhi. Students with gap year will be considered.
+4. The admission for the remaining 50% seats in the M.Sc. Computer Science course is based on Admission Test & Interview. For preparing the final merit list, 85% weightage will be given to the score in the Entrance Exam and 15% weightage will be given to the score in the Interview. The entrance examination shall be of two hours duration.
+Eligibility: As per the Bulletin of Information
+Admission Procedure:
+Mode I: 50% of the seats will be filled on the basis of merit in B.Sc. (Hons.) Computer Science programme of University of Delhi. Students with gap year will be considered. Only those students who have filled the application form will be considered under this category.
+Note: Only students of University of Delhi are eligible for admission on the basis of merit.
+Mode II: The admission for the remaining 50% seats in the M.Sc. Computer Science course is based on Admission Test & Interview. For preparing the final merit list, 85% weightage will be given to the score in the Entrance Exam and 15% weightage will be given to the score in the Interview. The entrance examination shall be of two hours duration. For other things, rules of University of Delhi shall be followed.
+Entrance Examination:
+M.Sc. Computer Science entrance examination shall have 50 objective type questions to be solved in 02 hours. The approximate distribution of questions will be as given below:
+Computer Science	30
+Mathematics	12
+English	8
 For any queries related to M.Sc. Computer Science admissions:
 Nodal Officer	Contact Details
 Prof. Vasudha Bhatnagar
