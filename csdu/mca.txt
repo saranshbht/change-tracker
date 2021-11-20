@@ -7,11 +7,15 @@ Admission Portal	Bulletin of Information	Distribution of Seats (Category-Wise)	E
 Admission Procedure	Entrance Exam Details	Syllabus for Entrance Test 2021-2022	Fee Structure	Contact Us
 Announcements
 Notice
-Dated
 Download
-First Admission List	Nov. 17, 2021	List , List-PwD/CW
-Interviews called-off for admission to MCA and M.Sc. (CS) program for the year 2021-22	Sept. 13, 2021	Notice
-Schedule of Entrance Exam for Delhi University Entrance Test (DUET) 2021	Sept. 02, 2021	Notice
+Notice related to reopening of PG admission portal to update marks	Notice
+Undertakings	Undertaking - Migration_Certificate,
+Undertaking - Submission of Result,
+Undertaking - OBC / EWS Undertaking,
+Undertaking for SC/ ST/ PWBD
+First Admission List	List , List-PwD/CW
+Interviews called-off for admission to MCA and M.Sc. (CS) program for the year 2021-22	Notice
+Schedule of Entrance Exam for Delhi University Entrance Test (DUET) 2021	Notice
 Distribution of Seats (Category-Wise):
 Total Seats (General+SC+ST+OBC+EWS) - 58
 Admission Criteria
