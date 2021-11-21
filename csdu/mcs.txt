@@ -15,7 +15,8 @@ Undertaking - OBC / EWS Undertaking,
 Undertaking for SC/ ST/ PWBD
 First Admission List	Entrance,
 Entrance-PwD/CW List,
-Merit
+Merit ,
+PwD-Merit
 Interviews called-off for admission to MCA and M.Sc. (CS) program for the year 2021-22	Notice
 Schedule of Entrance Exam for Delhi University Entrance Test (DUET) 2021	Notice
 Distribution of Seats (Category-Wise):
