@@ -5,6 +5,7 @@ Quick Links
 Announcements
 Admission Portal	Bulletin of Information	Distribution of Seats (Category-Wise)	Eligibility
 Admission Procedure	Entrance Exam Details	Syllabus for Entrance Test 2021-2022	Fee Structure	Contact Us
+Grievance Committee
 Announcements
 Notice
 Download
@@ -64,5 +65,12 @@ Nodal Officer	Contact Details
 Prof. Vasudha Bhatnagar
 mscadmission2021.computersci@gmail.com
 Dr. Bharti
+Grievance Committee Members	Contact Details
+Prof. Neelima Gupta
+mscadmission2021.computersci@gmail.com
+Prof. Punam Bedi
+Prof. Vasudha Bhatnagar
+Dr. Bharti
+Dr. Kuldeep Singh
 Click Here for M.Sc. Computer Science programme details.
 Archive
