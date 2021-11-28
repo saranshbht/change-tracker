@@ -14,6 +14,7 @@ Undertakings	Undertaking - Migration_Certificate,
 Undertaking - Submission of Result,
 Undertaking - OBC / EWS Undertaking,
 Undertaking for SC/ ST/ PWBD
+Second Admission List	List , List-PwD/CW
 First Admission List	List , List-PwD/CW
 Interviews called-off for admission to MCA and M.Sc. (CS) program for the year 2021-22	Notice
 Schedule of Entrance Exam for Delhi University Entrance Test (DUET) 2021	Notice
