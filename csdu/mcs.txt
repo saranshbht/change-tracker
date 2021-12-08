@@ -7,7 +7,6 @@ Admission Portal	Bulletin of Information	Distribution of Seats (Category-Wise)	E
 Admission Procedure	Entrance Exam Details	Syllabus for Entrance Test 2021-2022	Fee Structure	Contact Us
 Grievance Committee
 Announcements
-/uploads/admissions/2021-22/MSc/SecondList
 Notice
 Download
 Notice related to reopening of PG admission portal to update marks	Notice
@@ -15,6 +14,8 @@ Undertakings	Undertaking - Migration_Certificate,
 Undertaking - Submission of Result,
 Undertaking - OBC / EWS Undertaking,
 Undertaking for SC/ ST/ PWBD
+Third Admission List	Entrance,
+Merit
 Second Admission List	Entrance,
 Entrance-PwD/CW List,
 Merit ,
