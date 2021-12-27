@@ -14,6 +14,8 @@ Undertakings	Undertaking - Migration_Certificate,
 Undertaking - Submission of Result,
 Undertaking - OBC / EWS Undertaking,
 Undertaking for SC/ ST/ PWBD
+Fourth + Spot Round Admission List	Entrance,
+Merit
 Third Admission List	Entrance,
 Merit
 Second Admission List	Entrance,
