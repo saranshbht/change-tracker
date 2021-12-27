@@ -14,6 +14,7 @@ Undertakings	Undertaking - Migration_Certificate,
 Undertaking - Submission of Result,
 Undertaking - OBC / EWS Undertaking,
 Undertaking for SC/ ST/ PWBD
+PG Ward Quota Second Admission List	PG Ward Quota List
 Fourth + Spot Round Admission List	List, List-PwD/CW
 Third Admission List	List
 Second Admission List	List , List-PwD/CW
