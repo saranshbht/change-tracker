@@ -1,33 +1,33 @@
 name: cron job
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: 0 0/3 * * *
-
 
 jobs:
   cron-job:
     runs-on: ubuntu-latest
 
     steps:
-    - name: checkout
-      uses: actions/checkout@v2
+      - name: checkout
+        uses: actions/checkout@v2
 
-    - name: set up node
-      uses: actions/setup-node@v1
+      - name: set up node
+        uses: actions/setup-node@v1
 
-    - name: install
-      run: npm install
+      - name: install
+        run: npm install
 
-    - name: run
-      run: node runner.js
-      env:
+      - name: run
+        run: node runner.js
+        env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
 
-    - name: push changes
-      uses: stefanzweifel/git-auto-commit-action@v4.4.1
-      with:
-        commit_message: added changes by action
-        commit_user_name: Saransh Bhatia
-        commit_user_email: saranshbht@gmail.com
+      - name: push changes
+        uses: stefanzweifel/git-auto-commit-action@v4.4.1
+        with:
+          commit_message: added changes by action
+          commit_user_name: Saransh Bhatia
+          commit_user_email: saranshbht@gmail.com
