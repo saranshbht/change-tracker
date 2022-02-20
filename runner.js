@@ -1,3 +1,4 @@
+require('dotenv').config()
 const tg = require("telegram-bot-api");
 const Diff = require("diff");
 const fs = require("fs");
@@ -6,7 +7,7 @@ const puppeteer = require("puppeteer");
 const api = new tg({ token: process.env.BOT_TOKEN });
 
 let array = [
-  ["http://nimcet.in", "div.marquee", "nimcet.txt"],
+  // ["http://nimcet.in", "div.marquee", "nimcet.txt"],
   ["http://du.ac.in", "div#pills-spotlight", "du/home.txt"],
   // ['https://nta.ac.in/NoticeBoardArchive', 'div.content', 'nta.txt'],
   // [
@@ -25,7 +26,7 @@ let array = [
   ["http://cs.du.ac.in/admission/mca/", "div.main-content", "csdu/mca.txt"],
   ["http://cs.du.ac.in/admission/mcs/", "div.main-content", "csdu/mcs.txt"],
   [
-    "http://durslt.du.ac.in/DURSLT_ND2020/Students/List_Of_Declared_Results.aspx",
+    "http://durslt.du.ac.in/DURSLT_ND2021/Students/List_Of_Declared_Results.aspx",
     "table#gvshow_Reg",
     "du/results.txt",
     "th[style='height:35px;'], td[style='height:35px;']",

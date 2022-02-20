@@ -5,10 +5,10 @@
   "main": "runner.js",
   "dependencies": {
     "diff": "^4.0.2",
+    "dotenv": "^16.0.0",
     "puppeteer": "^5.5.0",
     "telegram-bot-api": "^2.0.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
