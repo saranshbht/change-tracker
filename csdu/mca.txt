@@ -4,7 +4,6 @@ MCA Admission 2022-23
 Quick Links
 Admission Portal	Bulletin of Information	Distribution of Seats (Category-Wise)	Eligibility
 Admission Procedure	Entrance Exam Details	Syllabus for Entrance Test 2021-2022	Contact Us
-Grievance Committee
 Distribution of Seats (Category-Wise):
 Total Seats (General+SC+ST+OBC+EWS) - 58
 Admission Criteria
@@ -41,16 +40,7 @@ Computer Science	04
 Logical Ability	06
 For any queries related to MCA admissions:
 Nodal Officers	Contact Details
-Prof. Punam Bedi
-mcaadmission2022.computersci@gmail.com
 Dr. Kuldeep Singh
-Grievance Committee
-Grievance Committee Members	Contact Details
-Prof. Neelima Gupta
 mcaadmission2022.computersci@gmail.com
-Prof. Punam Bedi
-Prof. Vasudha Bhatnagar
-Dr. Bharti
-Dr. Kuldeep Singh
 Click Here for MCA programme details.
 Archive
