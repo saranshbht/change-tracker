@@ -1,6 +1,6 @@
 Previous
 Next
-1234567891011121314151617
+12345678910111213141516171819
 Welcome to the Department of Computer Science at University of Delhi.
 The Department of Computer Science was established in the year 1981 with the objective of imparting quality education in the field of Computer Science. The Department has modern facilities for teaching, learning and research. The Department offers a wide array of research opportunities and programs of study at undergraduate and postgraduate level.
 The Department started 3-year Master of Computer Applications (MCA) programme in the year 1982, which was among the first such programmes in India.
@@ -9,7 +9,11 @@ Besides these, the Department offers Doctor of Philosophy (Ph.D.) in Computer Sc
 Undergraduate CBCS programmes - B.Sc. (H) Computer Science, B.Sc. Physical / Mathematical Sciences and B.A. Programme (Discipline Courses in Computer Applications) are offered by the University of Delhi through its constituent colleges.
 With rapidly evolving technology and the continuous need for innovation, the Department has produced quality professionals holding important positions in the IT industry in India and abroad.
 Latest News
-Tentative Time Table for MCA (Sem.V)
+Notice for the appointment of Guest Faculty in Department of Computer Science
+Date Sheet for MCA & MSc CS (Sem.II)-August '22
+Ad-hoc panel for Assistant Professors (on Ad-hoc basis) in the Department of Computer Sciences in the constituent colleges of University of Delhi for the year 2022-23
+Tentative Time Table for MCA (Sem V)
+Date-sheet for Internal Assessment of MCA and M.Sc. (CS) Sem-IV, June-2022
 Pre-admission preparation classes for candidates, from lesser privileged sections of the society, applying for Ph.D. (Computer Science) program for the academic year 2022-23 in the Department of Computer Science: Notice, Link to register
 Notice for Ad-hoc panel for Assistant Professors in the Department of Computer Science in the constituent colleges of the University of Delhi, Delhi for the academic year 2022-23
 Postgraduate Admissions 2022: Provision of an Edit Window
@@ -17,14 +21,6 @@ Notification: Examination Related
 Date-Sheet for MCA (Admissions of 2020) Examinations, May-June 2022 for Regular, Essential Repeaters, Improvement & Ex-Students
 Notable Alumni of Department of Computer Science
 Admissions: MCA, M.Sc. (Computer Science), Ph.D.
-Organisation of 'Bharat Bhagya Vidhata'-Red Fort Festival from 25th March to 5th April, 2022
-Notification dated 29.03.2022 regarding filling up examination form for Regular Students of Semester IV/VI/VIII/X of all Under Graduate (UG) & Post Graduate (PG) Programmes alongwith the Essential Repeaters, Improvement and Ex-students of Semesters II/IV/VI/VIII under CBCS & CBCS (LOCF) Scheme for the Academic Session 2021-2022., last date is 15.04.2022
-Notification dated 29.03.2022 regarding Filling up Under Graduate/Post Graduate/Professional Courses of Non-CBCS and Semester II/IV/VI/Annual Mode I/II/III scheme for Academic Year 2021-22
-Reconstitution of the composition of Internal Complaints Committee (ICC) of Ministry of Education
-Maintenance of safe working environment for female employees at Workplace: Office Memorandum
-Time - Table for Pre-Ph.D. Course Work
-Notification - Offiline Teaching Resumption
-Office Order - Offiline Teaching Resumption
 Student Corner
 Examination: May-June, 2022: MCA
 Visit Examination-OBE (March, 2022)
