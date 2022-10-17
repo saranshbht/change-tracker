@@ -1,4 +1,5 @@
 Exam Flag	Course Code	Course Name	Part	Sem
+CBCS	501	(CBCS) B.A.(PROG)	I	I
 CBCS	503	(CBCS) B.COM (PROG.)	I	I
 CBCS	504	(CBCS) B.COM (HONS.)	I	I
 CBCS	511	(CBCS) B.A.(HONS.) ENGLISH	I	I
