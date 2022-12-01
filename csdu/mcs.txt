@@ -44,6 +44,8 @@ Admission Procedure:
 Mode I: 50% of the seats will be filled on the basis of merit in B.Sc. (Hons.) Computer Science programme of University of Delhi. Students with gap year will be considered. Only those students who have filled the application form will be considered under this category.
 Note: Only students of University of Delhi are eligible for admission on the basis of merit.
 Mode II: The admission for the remaining 50% seats in the M.Sc. Computer Science course is based on Admission Test & Interview (Tentative). For preparing the final merit list, 85% weightage will be given to the score in the Entrance Exam and 15% weightage will be given to the score in the Interview (Tentative). The entrance examination shall be of two hours duration. For other things, rules of University of Delhi shall be followed.
+Note:
+In the academic year 2022-23, the admission process for MSc Computer Science and MCA programs will not include the interview component. Therefore, the entrance-based admission will have 100% weightage of the written test.
 Entrance Examination:
 M.Sc. Computer Science entrance examination shall have 50 objective type questions to be solved in 02 hours. The approximate distribution of questions will be as given below:
 Computer Science	30

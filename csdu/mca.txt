@@ -37,7 +37,7 @@ Eligibility: As per the Bulletin of Information
 Admission Procedure:
 Admission to MCA programme is based on Entrance Exam. The entrance examination shall be of two hours duration. For other things, the rules of University of Delhi shall be followed.
 Note:
-In the wake of the unprecedented situation that has arisen due to COVID 19, admission to both the PG courses in the department will not have the interview component. Therefore, the entrance based admission will have 100% weightage of the written test.
+In the academic year 2022-23, the admission process for MSc Computer Science and MCA programs will not include the interview component. Therefore, the entrance-based admission will have 100% weightage of the written test.
 Entrance Examination:
 MCA entrance examination shall consist of 50 objective type questions to be solved in 02 hours. The approximate distribution of questions will be as given below:
 English	10
